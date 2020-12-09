@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Icons from 'uikit/dist/js/uikit-icons';
+import UIkit from "uikit";
+
+// loads the Icon plugin
+UIkit.use(Icons);
 
 ReactDOM.render(
   <React.StrictMode>
